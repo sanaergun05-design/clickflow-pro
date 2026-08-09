@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClickFlow Pro</string>
+    <string name="app_tagline">Akıllı otomatik tıklayıcı</string>
+    <string name="accessibility_service_description">ClickFlow Pro, Erişilebilirlik API\'sini yalnızca sizin belirlediğiniz ekran noktalarına dokunmak için kullanır (örn. oyunlarda tekrarlayan görevleri veya uygulama testlerini otomatikleştirmek için). Ekran içeriğini okumaz, kişisel veri toplamaz ve yalnızca siz Başlat\'a bastığınızda dokunma yapar.</string>
+
+    <!-- Üst bar -->
+    <string name="action_toggle_theme">Temayı değiştir</string>
+    <string name="action_marker_settings">İşaretleyici ayarları</string>
+    <string name="action_profiles">Profiller</string>
+    <string name="action_language">Dil</string>
+
+    <!-- Erişilebilirlik kartı -->
+    <string name="accessibility_card_title">Erişilebilirlik izni gerekli</string>
+    <string name="accessibility_card_desc">%1$s uygulamasının sizin adınıza dokunma yapabilmesine izin verin.</string>
+    <string name="action_enable">Etkinleştir</string>
+
+    <!-- Kontrol kartı -->
+    <string name="status_running">Otomatik tıklayıcı çalışıyor</string>
+    <string name="status_ready">Tıklamaya hazır</string>
+    <string name="start_clicking">Tıklamayı başlat</string>
+    <string name="stop_clicking">Tıklamayı durdur</string>
+
+    <!-- Hız kartı -->
+    <string name="click_speed">Tıklama hızı</string>
+    <string name="interval_label">Aralık</string>
+    <string name="interval_desc">Dokunuşlar arası milisaniye</string>
+
+    <!-- Noktalar kartı -->
+    <string name="tap_points_title">Dokunma noktaları</string>
+    <string name="add_point_desc">Nokta ekle</string>
+    <string name="edit_button">Düzenle</string>
+    <string name="tip_text">İpucu: tam koordinatları ince ayarlamak için düzenleme ekranını kullanın.</string>
+
+    <!-- Profiller diyaloğu -->
+    <string name="profiles_dialog_title">Profiller</string>
+    <string name="create_profile">Yeni profil oluştur</string>
+    <string name="done_button">Bitti</string>
+    <string name="points_count_short">%1$d nokta</string>
+
+    <!-- İşaretleyici ayarları diyaloğu -->
+    <string name="marker_settings_title">İşaretleyici</string>
+    <string name="marker_settings_desc">Her dokunuşta ekranda beliren küçük işaretin şekli ve rengi.</string>
+    <string name="marker_shape_label">Şekil</string>
+    <string name="marker_color_label">Renk</string>
+
+    <!-- Nokta düzenleyici diyaloğu -->
+    <string name="edit_tap_points_title">Dokunma noktalarını düzenle</string>
+    <string name="edit_tap_points_desc">Ekrandan sürükleyerek seçin ya da koordinatları elle girin.</string>
+    <string name="pick_on_screen_desc">Ekrandan sürükleyerek seç</string>
+    <string name="delete_point_desc">Noktayı sil</string>
+    <string name="x_label">X</string>
+    <string name="y_label">Y</string>
+
+    <!-- İlk açılış / izin ekranı -->
+    <string name="onboarding_title">ClickFlow Pro\'ya hoş geldiniz</string>
+    <string name="onboarding_subtitle">Başlamak için tek bir izin yeterli.</string>
+    <string name="onboarding_accessibility_title">Erişilebilirlik izni</string>
+    <string name="onboarding_accessibility_desc">ClickFlow Pro, seçtiğiniz noktalara belirlediğiniz hızda dokunabilmek için Erişilebilirlik iznine ihtiyaç duyar. Ekranınızda ne olduğunu asla okumaz ve siz Başlat\'a basmadan çalışmaz. İzni Ayarlar\'dan etkinleştirmek için aşağıdaki düğmeye dokunun, ardından buraya geri dönün.</string>
+    <string name="onboarding_open_settings">Ayarları Aç</string>
+    <string name="onboarding_granted">İzin verildi</string>
+    <string name="onboarding_continue">Devam et</string>
+    <string name="onboarding_skip">Şimdilik geç</string>
+
+    <!-- Dil diyaloğu -->
+    <string name="language_dialog_title">Dil seçin</string>
+    <string name="language_english">English</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <!-- Kayan panel (servis, diğer uygulamaların üzerinde çizilir) -->
+    <string name="overlay_drag_confirm_hint">Noktayı sürükle, sonra onayla</string>
+    <string name="overlay_confirm_desc">Onayla</string>
+    <string name="overlay_cancel_desc">İptal</string>
+    <string name="overlay_rejected_suffix">reddedildi</string>
+
+    <plurals name="points_active">
+        <item quantity="other">%1$d aktif nokta · %2$d toplam dokunuş</item>
+    </plurals>
+</resources>

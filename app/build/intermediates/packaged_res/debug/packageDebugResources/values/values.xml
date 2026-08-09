@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_blue">#5B5FEF</color>
+    <color name="brand_teal">#19B6A5</color>
+    <plurals name="points_active">
+        <item quantity="one">%1$d active point · %2$d total taps</item>
+        <item quantity="other">%1$d active points · %2$d total taps</item>
+    </plurals>
+    <string name="accessibility_card_desc">Allow %1$s to perform taps on your behalf.</string>
+    <string name="accessibility_card_title">Accessibility access needed</string>
+    <string name="accessibility_service_description">ClickFlow Pro uses the Accessibility API only to tap the exact on-screen points you set up yourself (for example, to automate repetitive taps in games or repeated app testing). It does not read screen content, does not collect personal data, and only taps while you have pressed Start.</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_language">Language</string>
+    <string name="action_marker_settings">Marker settings</string>
+    <string name="action_profiles">Profiles</string>
+    <string name="action_toggle_theme">Toggle theme</string>
+    <string name="add_point_desc">Add point</string>
+    <string name="app_name">ClickFlow Pro</string>
+    <string name="app_tagline">Smart auto clicker</string>
+    <string name="click_speed">Click speed</string>
+    <string name="create_profile">Create new profile</string>
+    <string name="delete_point_desc">Delete point</string>
+    <string name="done_button">Done</string>
+    <string name="edit_button">Edit</string>
+    <string name="edit_tap_points_desc">Drag to pick on screen, or enter coordinates manually.</string>
+    <string name="edit_tap_points_title">Edit tap points</string>
+    <string name="interval_desc">Milliseconds between taps</string>
+    <string name="interval_label">Interval</string>
+    <string name="language_dialog_title">Choose language</string>
+    <string name="language_english">English</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="marker_color_label">Color</string>
+    <string name="marker_settings_desc">Shape and color of the small marker shown on every tap.</string>
+    <string name="marker_settings_title">Marker</string>
+    <string name="marker_shape_label">Shape</string>
+    <string name="onboarding_accessibility_desc">ClickFlow Pro needs Accessibility access to tap the points you choose, at the speed you set. It never reads what\'s on your screen and never runs unless you press Start. Tap the button below to enable it in Settings, then come back here.</string>
+    <string name="onboarding_accessibility_title">Accessibility access</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="onboarding_granted">Permission granted</string>
+    <string name="onboarding_open_settings">Open Settings</string>
+    <string name="onboarding_skip">Skip for now</string>
+    <string name="onboarding_subtitle">Just one quick permission and you\'re ready to go.</string>
+    <string name="onboarding_title">Welcome to ClickFlow Pro</string>
+    <string name="overlay_cancel_desc">Cancel</string>
+    <string name="overlay_confirm_desc">Confirm</string>
+    <string name="overlay_drag_confirm_hint">Drag the point, then confirm</string>
+    <string name="overlay_rejected_suffix">rejected</string>
+    <string name="pick_on_screen_desc">Pick on screen by dragging</string>
+    <string name="points_count_short">%1$d pts</string>
+    <string name="profiles_dialog_title">Profiles</string>
+    <string name="start_clicking">Start clicking</string>
+    <string name="status_ready">Ready to click</string>
+    <string name="status_running">Auto clicker is running</string>
+    <string name="stop_clicking">Stop clicking</string>
+    <string name="tap_points_title">Tap points</string>
+    <string name="tip_text">Tip: use the edit screen to fine-tune exact screen coordinates.</string>
+    <string name="x_label">X</string>
+    <string name="y_label">Y</string>
+    <style name="Theme.AutoClicker" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/brand_blue</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
